@@ -1,8 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Taprom&display=swap");
-.container {
-  max-width: 1241px;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&family=Taprom&display=swap");
+body {
+  max-width: 1240px;
   min-width: 350px;
   margin: 0 auto;
+  font-family: "Poppins", sans-serif;
 }
 
 /* Reset and base styles  */
@@ -101,4 +102,60 @@ legend {
   --white: #ffffff;
   --popins: "Popins", sans-serif;
   --taprom: "Taprom", system-ui;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 40px 45px;
+}
+
+.header__logo {
+  width: 168px;
+  height: 65px;
+}
+
+.header__button {
+  width: 153px;
+  height: 58px;
+  background-color: var(--orange);
+  border-radius: 10px;
+  color: var(--white);
+  -webkit-box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 35px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 500;
+}
+
+.menu_active {
+  color: var(--orange);
 }

@@ -1,0 +1,11 @@
+.menu {
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.menu_active {
+    color: var(--orange);
+}
