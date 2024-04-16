@@ -1,0 +1,75 @@
+.world {
+    position: relative;
+    height: 657px;
+    background-color: antiquewhite;
+    margin-top: 49px;
+    z-index: -1;
+}
+
+
+.world__travelFun {
+    font-weight: 700;
+    font-size: 128px;
+    transform: rotate(-90deg);
+    transform-origin: top left;
+    width: 657px;
+    height: 192px;
+
+    position: absolute;
+    top: 660px;
+    left: -50px;
+    color: #0000000f;
+}
+
+.world__compass {
+    display: flex;
+    padding-top: 34px;
+    gap: 10px;
+}
+
+.world__title {
+    font-size: 64px;
+    font-weight: 700;
+    width: 558px;
+    height: 308px;
+    color: var(--black);
+}
+
+.wirld__title_acente {
+    font-family: 'Taprom', sans-serif;
+    font-weight: 200;
+    color: var(--orange);
+}
+
+.world__subtitle {
+    width: 579px;
+    height: 72px;
+    margin-top: 30px;
+    line-height: 40px;
+}
+
+.world__button {
+    margin-top: 56px;
+    padding: 14px 32px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--white);
+    
+    text-align: center;
+}
+
+.world__button_orange {
+    width: 221px;
+    height: 58px;
+    margin-right: 20px;
+    background-color: var(--orange);
+    box-shadow: 25px 20px 35px rgb(255 72 0 / 20%);
+}
+
+.world__button_black {
+    width: 198px;
+    height: 58px;
+    background-color: var(--black);
+    box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.2);
+}
