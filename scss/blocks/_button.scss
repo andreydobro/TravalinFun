@@ -1,0 +1,30 @@
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: aquamarine;
+}
+
+
+.button__grey {
+    background-color: #DFDFDF;
+}
+
+.button__grey:hover {
+    background-color:  #bfbfbf;
+}
+
+.button__orange {
+    background-color: var(--orange);
+}
+
+.button__orange:hover {
+    background-color: #ea4200;
+}
