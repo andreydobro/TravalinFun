@@ -25,7 +25,7 @@
 
 .position-destination__die {
     position: absolute;
-    display: flex;
+    
     width: 272px;
     height: 175px;
     top: 279px;
@@ -34,6 +34,11 @@
     border-radius: 10px;
     box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.15);
     padding: 20px 18px 28px
+}
+
+.popular-destination__die-flex {
+    display: flex;
+    justify-content: space-between;
 }
 
 .position-destination__location {
@@ -56,4 +61,27 @@
 
 .popular-destination__rating {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 21px 
+}
+
+.popular-destination__title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 17px;
+}
+
+.popular-destination__price-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 13px;
+}
+
+.popular-destination__price {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--gray);
 }
