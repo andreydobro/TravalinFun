@@ -1,5 +1,5 @@
 .places {
-    padding-top: 275px;
+    padding-top: 100px;
 }
 
 .place {
@@ -12,6 +12,17 @@
     display: flex;
     gap: 25px;
     margin-top: 80px;
+    overflow-x: scroll;
+    height: 500px;
+}
+
+.place__cards .place__card {
+    grid-template-columns: auto auto auto;
+    flex: none;
+}
+
+.place__cards::-webkit-scrollbar {
+    display: none;
 }
 
 .place__card {

@@ -454,10 +454,26 @@ legend {
 }
 
 .popular-destination__cards {
+  height: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 25px;
+  overflow-x: scroll;
+}
+
+.popular-destination__cards .popular-destination__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  grid-template-columns: auto auto auto auto;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+}
+
+.popular-destination__cards::-webkit-scrollbar {
+  display: none;
 }
 
 .popular-destination__card {
@@ -575,12 +591,20 @@ legend {
   background-color: aquamarine;
 }
 
-.button__grey {
+.button__left {
   background-color: #DFDFDF;
 }
 
-.button__grey:hover {
+.button__left:hover {
   background-color: #bfbfbf;
+}
+
+.button__right {
+  background-color: var(--orange);
+}
+
+.button__right:hover {
+  background-color: #ea4200;
 }
 
 .button__orange {
@@ -592,7 +616,7 @@ legend {
 }
 
 .places {
-  padding-top: 275px;
+  padding-top: 100px;
 }
 
 .place {
@@ -613,6 +637,19 @@ legend {
   display: flex;
   gap: 25px;
   margin-top: 80px;
+  overflow-x: scroll;
+  height: 500px;
+}
+
+.place__cards .place__card {
+  grid-template-columns: auto auto auto;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+}
+
+.place__cards::-webkit-scrollbar {
+  display: none;
 }
 
 .place__card {

@@ -9,8 +9,20 @@
 }
 
 .popular-destination__cards {
+    height: 500px;
     display: flex;
     gap: 25px;
+    overflow-x: scroll;
+}
+
+.popular-destination__cards .popular-destination__card {
+    display: flex;
+    grid-template-columns: auto auto auto auto;
+    flex: none;
+}
+
+.popular-destination__cards::-webkit-scrollbar {
+    display: none;
 }
 
 .popular-destination__card {

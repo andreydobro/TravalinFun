@@ -13,12 +13,20 @@
 }
 
 
-.button__grey {
+.button__left {
     background-color: #DFDFDF;
 }
 
-.button__grey:hover {
+.button__left:hover {
     background-color:  #bfbfbf;
+}
+
+.button__right {
+    background-color: var(--orange);
+}
+
+.button__right:hover {
+    background-color: #ea4200;
 }
 
 .button__orange {
